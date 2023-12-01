@@ -4,8 +4,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed; /* Esto fija la imagen de fondo */
     background-size: cover; /* Esto asegura que la imagen cubra toda la página */
-    background-position: center;
-    padding: 5%;
+    background-position: top;
+    padding: 5px;
     text-align: center;
     font-family: sans-serif;
     color: white;
@@ -34,10 +34,11 @@ audio { /*DIV PADRE*/
 
 /*ESTILOS CONTEOS REGRESIVOS*/
 .DivConteo { /*DIV PADRE*/
+    width: 90%;
     background-color: rgba(0, 0, 0, 0.61); 
     height: auto;
     border-radius: 40px;
-    padding: 65px;
+    padding: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -81,11 +82,11 @@ span{
 
 /*ESTILOS CONTENEDORES*/
 .Contenedores { /*Novia, Novio y Padrinos*/
-    width: 40%;
+    width: 90%;
     background-color: #413f40;
     height: auto;
     border-radius: 40px;
-    padding: 65px;
+    padding: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
     border: 2px white solid;
