@@ -38,7 +38,7 @@ audio { /*DIV PADRE*/
     background-color: rgba(0, 0, 0, 0.61); 
     height: auto;
     border-radius: 40px;
-    padding: 25px;
+    padding: 5px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -84,6 +84,7 @@ span{
 .Contenedores { /*Novia, Novio y Padrinos*/
     width: 90%;
     background-color: #413f40;
+    height: fit-content;
     border-radius: 40px;
     padding: 5px;
     margin-top: 25px;
@@ -97,7 +98,7 @@ span{
     color: black;
     height: auto;
     border-radius: 40px;
-    padding: 65px;
+    padding: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
     border: 2px white solid;
