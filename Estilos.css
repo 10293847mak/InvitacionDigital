@@ -29,7 +29,7 @@ body::before {
 
 /*ESTILOS AUDIO*/
 .audioPading { /*DIV PADRE*/
-    width: 80%;
+    width: 85%;
     height: auto;
     background-color:#f1f1f1;
     border-top-left-radius: 25px;
@@ -124,7 +124,7 @@ span{
 
 .Contenedores4 { /*Ceremoni, Fiesta y Eriqueta* Confirmacion de invitacion*/
     width: 90%;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(241, 239, 239);
     color: rgb(38, 38, 38);
     height: auto;
     border-radius: 40px;
