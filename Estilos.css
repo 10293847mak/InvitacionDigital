@@ -84,9 +84,8 @@ span{
 .Contenedores { /*Novia, Novio y Padrinos*/
     width: 90%;
     background-color: #413f40;
-    height: auto;
     border-radius: 40px;
-    padding: 25px;
+    padding: 5px;
     margin-top: 25px;
     margin-bottom: 25px;
     border: 2px white solid;
