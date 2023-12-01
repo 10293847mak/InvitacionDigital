@@ -28,8 +28,12 @@ body::before {
 /*-------------*/
 
 /*ESTILOS AUDIO*/
-audio { /*DIV PADRE*/
-    background-color: rgba(0, 0, 0, 0.61); 
+.audioPading { /*DIV PADRE*/
+    width: 80%;
+    height: auto;
+    background-color:#f1f1f1;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 /*ESTILOS CONTEOS REGRESIVOS*/
@@ -104,13 +108,27 @@ span{
     border: 2px white solid;
 }
 
+
+
 .Contenedores3 { /*Ceremoni, Fiesta y Eriqueta* Confirmacion de invitacion*/
-    width: 40%;
+    width: 90%;
     background-color: black;
     color: wheat;
     height: auto;
     border-radius: 40px;
-    padding: 65px;
+    padding:  5px 5px 25px 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 2px white solid;
+}
+
+.Contenedores4 { /*Ceremoni, Fiesta y Eriqueta* Confirmacion de invitacion*/
+    width: 90%;
+    background-color: rgb(230, 230, 230);
+    color: rgb(38, 38, 38);
+    height: auto;
+    border-radius: 40px;
+    padding: 5px;
     margin-top: 25px;
     margin-bottom: 25px;
     border: 2px white solid;
