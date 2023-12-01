@@ -7,7 +7,7 @@ body {
     background-position: top;
     padding: 5px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: "Dancing";
     color: white;
     display: grid; /*POSICIONA LOS CONTENEDORES EN COLUMNAS Y FILAS*/
     place-items: center; /*CENTRA LOS CONTENEDORES*/
@@ -112,8 +112,8 @@ span{
 
 .Contenedores3 { /*Ceremoni, Fiesta y Eriqueta* Confirmacion de invitacion*/
     width: 90%;
-    background-color: black;
-    color: wheat;
+    background-color: rgb(22, 22, 22);
+    color: rgb(244, 243, 242);
     height: auto;
     border-radius: 40px;
     padding:  5px 5px 25px 25px;
