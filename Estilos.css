@@ -202,9 +202,9 @@ button{
 
 /*ESTILOS ICONOS*/
 .icon{
-    width: 65px;
-    height: 65px;
-    margin: 10px;
+    width: 20%;
+    margin: 30px;
+    margin-bottom: 45px;
 }
 
 /*ESTILOS IMAGENES*/
