@@ -196,4 +196,11 @@ button{
 .icon{
     width: 65px;
     height: 65px;
+    margin-top: 10px;
+}
+
+/*ESTILOS IMAGENES*/
+img{
+    width: 40%;
+    border-radius: 50%;
 }
