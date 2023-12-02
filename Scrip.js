@@ -34,4 +34,25 @@ function updateCountdown() {
   
   // Iniciar el contador
   updateCountdown();
+
+  document.addEventListener('DOMContentLoaded', (event) => {
+    const observador = new IntersectionObserver((entradas, observador) => {
+        entradas.forEach(entrada => {
+            if (!entrada.isIntersecting) {
+                return;
+            }
+            entrada.target.classList.add('visible');
+            observador.unobserve(entrada.target);
+        });
+    }, {
+        rootMargin: '0px',
+        threshold: 0.1
+    });
+
+    // Observar todos los elementos con la clase 'oculto'
+    document.querySelectorAll('.oculto').forEach((elemento) => {
+        observador.observe(elemento);
+    });
+});
+
   
