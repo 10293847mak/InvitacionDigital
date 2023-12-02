@@ -1,4 +1,8 @@
 /*ESTILOS BODY*/
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    src: url('Fuentes/Itim-Regular.ttf') format('truetype');
+}
 body {
     background-image: url('Imagenes/FONDO NOVIOS.jpg'); /* Cambia esto por la ruta de tu imagen */
     background-repeat: no-repeat;
@@ -7,7 +11,7 @@ body {
     background-position: top;
     padding: 5px;
     text-align: center;
-    font-family: "Dancing";
+    font-family: 'MiFuentePersonalizada', sans-serif;
     color: white;
     display: grid; /*POSICIONA LOS CONTENEDORES EN COLUMNAS Y FILAS*/
     place-items: center; /*CENTRA LOS CONTENEDORES*/
@@ -95,7 +99,7 @@ span{
     padding: 5px;
     margin-top: 25px;
     margin-bottom: 25px;
-    border: 2px white solid;
+    border: 4px rgb(240, 240, 240) solid;
 }
 
 .Contenedores2 { /*Ceremoni, Fiesta y Eriqueta* Confirmacion de invitacion*/
@@ -108,7 +112,7 @@ span{
     padding: 0PX 0PX 5PX 5PX;
     margin-top: 25px;
     margin-bottom: 25px;
-    border: 2px white solid;
+    border: 4px rgb(23, 23, 23) solid;
 }
 
 
@@ -123,7 +127,7 @@ span{
     padding:  5px 5px 25px 25px;
     margin-top: 25px;
     margin-bottom: 25px;
-    border: 2px white solid;
+    border: 4px rgb(246, 246, 246) solid;
 }
 
 .Contenedores4 { /*Ceremoni, Fiesta y Eriqueta* Confirmacion de invitacion*/
@@ -136,7 +140,7 @@ span{
     padding: 5px;
     margin-top: 25px;
     margin-bottom: 25px;
-    border: 2px white solid;
+    border: 4px rgb(23, 23, 23) solid;
 }
 
 .ceremonia_fiesta{
@@ -196,7 +200,7 @@ button{
 .icon{
     width: 65px;
     height: 65px;
-    margin-top: 10px;
+    margin: 10px;
 }
 
 /*ESTILOS IMAGENES*/
