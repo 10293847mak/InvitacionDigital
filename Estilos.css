@@ -156,13 +156,14 @@ span{
 
 /*LINEAS (hr) ESTILO*/
 .lineaestilo{
-    width: 25%;
+    width: 35%;
     color: white;
     border-style: dashed;
 }
 
 .lineavestimenta{
     width: 50%;
+    box-sizing: content-box;
     color: black;
 }
 /*------------------*/
@@ -188,12 +189,39 @@ h3{
 /*----------------------------*/
 
 /*ESTILOS BOTONES*/
-button{
-    background-color: #413f40;
-    color: #f1f1f1;
-    padding: 5PX;
-    width: 80%;
-    border-radius: 25PX;
+
+.boton1 {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color:rgb(29, 29, 29);
+    color:  #f1f1f1;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none; /* Remueve el subrayado del enlace */
+    font-size: 16px;
+}
+
+.boton1:hover {
+    background-color: #424242;
+    color: rgb(240, 240, 240);
+}
+
+.boton2 {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #f1f1f1;
+    color: rgb(29, 29, 29);
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none; /* Remueve el subrayado del enlace */
+    font-size: 16px;
+}
+
+.boton2:hover {
+    background-color: #424242;
+    color: rgb(240, 240, 240);
 }
 
 .fuente_dedicatoria{
@@ -209,7 +237,7 @@ button{
 
 
 /*ESTILOS IMAGENES*/
-img{
+.imagenNovios{
     width: 40%;
     border-radius: 50%;
 }
