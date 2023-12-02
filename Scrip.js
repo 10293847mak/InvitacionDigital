@@ -6,7 +6,7 @@ function updateCountdown() {
     const secondsElement = document.getElementById('seconds');
   
     const now = new Date();
-    const eventDate = new Date("2023-12-31"); // Cambia esta fecha al evento deseado
+    const eventDate = new Date("2023-12-30"); // Cambia esta fecha al evento deseado
     const currentTime = now.getTime();
     const eventTime = eventDate.getTime();
   

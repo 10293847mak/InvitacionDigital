@@ -1,7 +1,7 @@
 /*ESTILOS BODY*/
 @font-face {
     font-family: 'MiFuentePersonalizada';
-    src: url('Fuentes/Itim-Regular.ttf') format('truetype');
+    src: url('Fuentes/PetitFormalScript-Regular.ttf') format('truetype');
 }
 body {
     background-image: url('Imagenes/FONDO NOVIOS.jpg'); /* Cambia esto por la ruta de tu imagen */
@@ -11,7 +11,7 @@ body {
     background-position: top;
     padding: 5px;
     text-align: center;
-    font-family: 'MiFuentePersonalizada', sans-serif;
+    font-family: sans-serif;
     color: white;
     display: grid; /*POSICIONA LOS CONTENEDORES EN COLUMNAS Y FILAS*/
     place-items: center; /*CENTRA LOS CONTENEDORES*/
@@ -194,6 +194,10 @@ button{
     padding: 5PX;
     width: 80%;
     border-radius: 25PX;
+}
+
+.fuente_dedicatoria{
+    font-family: 'MiFuentePersonalizada', sans-serif;
 }
 
 /*ESTILOS IMAGENES*/
