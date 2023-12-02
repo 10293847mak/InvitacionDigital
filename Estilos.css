@@ -4,10 +4,10 @@
     src: url('Fuentes/PetitFormalScript-Regular.ttf') format('truetype');
 }
 body {
-    background-image: url('Imagenes/FONDO NOVIOS.jpg'); /* Cambia esto por la ruta de tu imagen */
+    background-image: url('Imagenes/FONDO NOVIOS2.jpg'); /* Cambia esto por la ruta de tu imagen */
     background-repeat: no-repeat;
     background-attachment: fixed; /* Esto fija la imagen de fondo */
-    background-size: auto; /* Esto asegura que la imagen cubra toda la página */
+    background-size: 100%; /* Esto asegura que la imagen cubra toda la página */
     background-position: top;
     padding: 5px;
     text-align: center;
@@ -99,7 +99,7 @@ span{
     padding: 5px;
     margin-top: 25px;
     margin-bottom: 25px;
-    border: 4px rgb(240, 240, 240) solid;
+    border: 3px rgb(240, 240, 240) solid;
 }
 
 .Contenedores2 { /*Ceremoni, Fiesta y Eriqueta* Confirmacion de invitacion*/
@@ -107,12 +107,12 @@ span{
     max-width: 560px;
     background-color: #ffffff;
     color: black;
-    height: auto;
+    height: 90%;
     border-radius: 40px;
     padding: 0PX 0PX 5PX 5PX;
     margin-top: 25px;
     margin-bottom: 25px;
-    border: 4px rgb(23, 23, 23) solid;
+    border: 3px rgb(23, 23, 23) solid;
 }
 
 
@@ -127,7 +127,7 @@ span{
     padding:  5px 5px 25px 25px;
     margin-top: 25px;
     margin-bottom: 25px;
-    border: 4px rgb(246, 246, 246) solid;
+    border: 3px rgb(246, 246, 246) solid;
 }
 
 .Contenedores4 { /*Ceremoni, Fiesta y Eriqueta* Confirmacion de invitacion*/
@@ -140,7 +140,7 @@ span{
     padding: 5px;
     margin-top: 25px;
     margin-bottom: 25px;
-    border: 4px rgb(23, 23, 23) solid;
+    border: 3px rgb(23, 23, 23) solid;
 }
 
 .ceremonia_fiesta{
@@ -202,10 +202,11 @@ button{
 
 /*ESTILOS ICONOS*/
 .icon{
-    width: 20%;
-    margin: 30px;
-    margin-bottom: 45px;
+    width: 30%;
+    margin: 20%;
 }
+
+
 
 /*ESTILOS IMAGENES*/
 img{
